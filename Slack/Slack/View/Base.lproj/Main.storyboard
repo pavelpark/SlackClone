@@ -26,11 +26,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-122" y="132"/>
         </scene>
-        <!--View Controller-->
+        <!--ChatVC-->
         <scene sceneID="d2p-YX-pWO">
             <objects>
-                <viewController id="n6T-rP-y27" sceneMemberID="viewController">
+                <viewController id="n6T-rP-y27" customClass="ChatVC" customModule="Slack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XuS-Er-bii">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="1028" y="515"/>
         </scene>
-        <!--View Controller-->
+        <!--ChannelVC-->
         <scene sceneID="NY6-Xd-Sxl">
             <objects>
-                <viewController id="6hs-QS-Hvy" sceneMemberID="viewController">
+                <viewController id="6hs-QS-Hvy" customClass="ChannelVC" customModule="Slack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gmU-W8-C7n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

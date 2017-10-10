@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		992EEC0CC5579342E3D88680 /* Pods_Slack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3957DA3A479307C032A1ACFA /* Pods_Slack.framework */; };
 		DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03346B1F8C828F00E5D699 /* AppDelegate.swift */; };
-		DB03346E1F8C828F00E5D699 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03346D1F8C828F00E5D699 /* ViewController.swift */; };
 		DB0334711F8C828F00E5D699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB03346F1F8C828F00E5D699 /* Main.storyboard */; };
 		DB0334731F8C828F00E5D699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0334721F8C828F00E5D699 /* Assets.xcassets */; };
 		DB0334761F8C828F00E5D699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0334741F8C828F00E5D699 /* LaunchScreen.storyboard */; };
+		DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334861F8D6D5300E5D699 /* ChannelVC.swift */; };
+		DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334881F8D6DCD00E5D699 /* ChatVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +22,6 @@
 		61C6FFD79121B8040FC1A11C /* Pods-Slack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack/Pods-Slack.debug.xcconfig"; sourceTree = "<group>"; };
 		DB0334681F8C828F00E5D699 /* Slack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB03346B1F8C828F00E5D699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB03346D1F8C828F00E5D699 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB0334701F8C828F00E5D699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB0334721F8C828F00E5D699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0334751F8C828F00E5D699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		DB03347E1F8C95F000E5D699 /* Slack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Slack-Bridging-Header.h"; sourceTree = "<group>"; };
 		DB03347F1F8C95F100E5D699 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DB0334801F8C95F100E5D699 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DB0334861F8D6D5300E5D699 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		DB0334881F8D6DCD00E5D699 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +96,8 @@
 		DB0334811F8D6ACC00E5D699 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DB03346D1F8C828F00E5D699 /* ViewController.swift */,
+				DB0334881F8D6DCD00E5D699 /* ChatVC.swift */,
+				DB0334861F8D6D5300E5D699 /* ChannelVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -251,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB03346E1F8C828F00E5D699 /* ViewController.swift in Sources */,
+				DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */,
 				DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */,
+				DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
