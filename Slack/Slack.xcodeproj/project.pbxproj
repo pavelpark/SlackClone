@@ -73,11 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				DB03347D1F8C95A500E5D699 /* Supporting Files */,
-				DB03346B1F8C828F00E5D699 /* AppDelegate.swift */,
-				DB03346D1F8C828F00E5D699 /* ViewController.swift */,
-				DB03346F1F8C828F00E5D699 /* Main.storyboard */,
-				DB0334721F8C828F00E5D699 /* Assets.xcassets */,
-				DB0334741F8C828F00E5D699 /* LaunchScreen.storyboard */,
+				DB0334831F8D6AF200E5D699 /* Model */,
+				DB0334821F8D6ADE00E5D699 /* View */,
+				DB0334811F8D6ACC00E5D699 /* Controller */,
 				DB0334771F8C828F00E5D699 /* Info.plist */,
 			);
 			path = Slack;
@@ -91,6 +89,33 @@
 				DB03347E1F8C95F000E5D699 /* Slack-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB0334811F8D6ACC00E5D699 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB03346D1F8C828F00E5D699 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB0334821F8D6ADE00E5D699 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB03346F1F8C828F00E5D699 /* Main.storyboard */,
+				DB0334721F8C828F00E5D699 /* Assets.xcassets */,
+				DB0334741F8C828F00E5D699 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB0334831F8D6AF200E5D699 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB03346B1F8C828F00E5D699 /* AppDelegate.swift */,
+			);
+			name = Model;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		E7E9746D67AF6135EF2B7D51 /* Pods */ = {
