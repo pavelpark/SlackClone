@@ -1,2 +1,2 @@
 ## SlackClone
-Messenging system based off of Slack.
+Messaging system based of Slack.
