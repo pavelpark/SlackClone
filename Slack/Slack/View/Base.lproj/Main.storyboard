@@ -72,6 +72,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="K4G-Qr-QyB"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="m2T-LG-svm" id="dPZ-j5-EFC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tPK-60-nF4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

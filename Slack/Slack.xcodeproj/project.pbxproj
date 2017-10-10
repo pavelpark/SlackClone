@@ -14,6 +14,7 @@
 		DB0334761F8C828F00E5D699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0334741F8C828F00E5D699 /* LaunchScreen.storyboard */; };
 		DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334861F8D6D5300E5D699 /* ChannelVC.swift */; };
 		DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334881F8D6DCD00E5D699 /* ChatVC.swift */; };
+		DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03347F1F8C95F100E5D699 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -257,6 +258,7 @@
 				DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */,
 				DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */,
 				DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */,
+				DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
