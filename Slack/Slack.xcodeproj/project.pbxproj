@@ -15,6 +15,7 @@
 		DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334861F8D6D5300E5D699 /* ChannelVC.swift */; };
 		DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334881F8D6DCD00E5D699 /* ChatVC.swift */; };
 		DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03347F1F8C95F100E5D699 /* SWRevealViewController.m */; };
+		DB37D9C31F8DC844003526FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37D9C21F8DC844003526FC /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DB0334801F8C95F100E5D699 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		DB0334861F8D6D5300E5D699 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		DB0334881F8D6DCD00E5D699 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		DB37D9C21F8DC844003526FC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				DB03346F1F8C828F00E5D699 /* Main.storyboard */,
 				DB0334721F8C828F00E5D699 /* Assets.xcassets */,
 				DB0334741F8C828F00E5D699 /* LaunchScreen.storyboard */,
+				DB37D9C21F8DC844003526FC /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			files = (
 				DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */,
 				DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */,
+				DB37D9C31F8DC844003526FC /* GradientView.swift in Sources */,
 				DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */,
 				DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */,
 			);
