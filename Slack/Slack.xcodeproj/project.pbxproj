@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		992EEC0CC5579342E3D88680 /* Pods_Slack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3957DA3A479307C032A1ACFA /* Pods_Slack.framework */; };
 		DB02EB3F1F8F3D6200CAE262 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02EB3E1F8F3D6200CAE262 /* Constants.swift */; };
+		DB02EB411F8F45DB00CAE262 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02EB401F8F45DB00CAE262 /* LoginVC.swift */; };
 		DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB03346B1F8C828F00E5D699 /* AppDelegate.swift */; };
 		DB0334711F8C828F00E5D699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB03346F1F8C828F00E5D699 /* Main.storyboard */; };
 		DB0334731F8C828F00E5D699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0334721F8C828F00E5D699 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		3957DA3A479307C032A1ACFA /* Pods_Slack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Slack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C6FFD79121B8040FC1A11C /* Pods-Slack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slack/Pods-Slack.debug.xcconfig"; sourceTree = "<group>"; };
 		DB02EB3E1F8F3D6200CAE262 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB02EB401F8F45DB00CAE262 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		DB0334681F8C828F00E5D699 /* Slack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB03346B1F8C828F00E5D699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0334701F8C828F00E5D699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 			children = (
 				DB0334881F8D6DCD00E5D699 /* ChatVC.swift */,
 				DB0334861F8D6D5300E5D699 /* ChannelVC.swift */,
+				DB02EB401F8F45DB00CAE262 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */,
 				DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */,
+				DB02EB411F8F45DB00CAE262 /* LoginVC.swift in Sources */,
 				DB37D9C31F8DC844003526FC /* GradientView.swift in Sources */,
 				DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */,
 				DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */,
