@@ -182,10 +182,10 @@
             </objects>
             <point key="canvasLocation" x="1028" y="-238.83058470764618"/>
         </scene>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="LOZ-LM-wB3">
             <objects>
-                <viewController id="z1O-1J-5KS" sceneMemberID="viewController">
+                <viewController id="z1O-1J-5KS" customClass="LoginVC" customModule="Slack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FGp-5W-l9r">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -193,6 +193,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyt-5I-D5q">
                                 <rect key="frame" x="331" y="20" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closePressed:" destination="z1O-1J-5KS" eventType="touchUpInside" id="L2z-yU-xkI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mX0-ct-trl">
                                 <rect key="frame" x="62.5" y="336" width="250" height="30"/>
