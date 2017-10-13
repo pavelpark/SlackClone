@@ -293,10 +293,28 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wQT-mz-pI1"/>
                     </view>
+                    <connections>
+                        <segue destination="lWB-44-xiC" kind="show" identifier="toCreateAccount" id="YAP-aA-pU3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDq-9P-P86" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1909.5999999999999" y="-239.73013493253376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Tc-7q-hgy">
+            <objects>
+                <viewController id="lWB-44-xiC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pd3-Bq-3Kd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="g0N-da-cP8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWg-Qv-cOJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2726" y="-240"/>
         </scene>
     </scenes>
     <resources>
