@@ -207,6 +207,9 @@
                                 <state key="normal" title="Don't have an account? sign up here">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="dontHaveAccountBtn:" destination="z1O-1J-5KS" eventType="touchUpInside" id="kuG-gK-Jyu"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="9sz-da-u9E">
                                 <rect key="frame" x="62.5" y="160" width="250" height="86"/>
@@ -301,10 +304,10 @@
             </objects>
             <point key="canvasLocation" x="1909.5999999999999" y="-239.73013493253376"/>
         </scene>
-        <!--View Controller-->
+        <!--Create AccountVC-->
         <scene sceneID="1Tc-7q-hgy">
             <objects>
-                <viewController id="lWB-44-xiC" sceneMemberID="viewController">
+                <viewController id="lWB-44-xiC" customClass="CreateAccountVC" customModule="Slack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pd3-Bq-3Kd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
