@@ -18,6 +18,7 @@
 		DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0334881F8D6DCD00E5D699 /* ChatVC.swift */; };
 		DB03348A1F8D73F100E5D699 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB03347F1F8C95F100E5D699 /* SWRevealViewController.m */; };
 		DB37D9C31F8DC844003526FC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB37D9C21F8DC844003526FC /* GradientView.swift */; };
+		DBFDC8421F914CC2003101B5 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFDC8411F914CC2003101B5 /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DB0334861F8D6D5300E5D699 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		DB0334881F8D6DCD00E5D699 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		DB37D9C21F8DC844003526FC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DBFDC8411F914CC2003101B5 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				DB0334881F8D6DCD00E5D699 /* ChatVC.swift */,
 				DB0334861F8D6D5300E5D699 /* ChannelVC.swift */,
 				DB02EB401F8F45DB00CAE262 /* LoginVC.swift */,
+				DBFDC8411F914CC2003101B5 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			files = (
 				DB0334891F8D6DCD00E5D699 /* ChatVC.swift in Sources */,
 				DB03346C1F8C828F00E5D699 /* AppDelegate.swift in Sources */,
+				DBFDC8421F914CC2003101B5 /* CreateAccountVC.swift in Sources */,
 				DB02EB411F8F45DB00CAE262 /* LoginVC.swift in Sources */,
 				DB37D9C31F8DC844003526FC /* GradientView.swift in Sources */,
 				DB0334871F8D6D5300E5D699 /* ChannelVC.swift in Sources */,
